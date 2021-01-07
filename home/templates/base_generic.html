@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <link rel='stylesheet' href="{% static 'home/style.css' %}" type="text/css">
+    {%block title%}<title>Moji Boi</title>{%endblock%}
+    <link rel='icon' href="{% static 'home/logo.png'%}" type="image/x-icon">
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+<body>
+    <header>
+        {%block nav%}
+            <nav class='navbar'>
+                <ul>
+                    <a href="{%url 'index'%}"><li id='logo'><img src="{% static 'home/logo.png'%}" alt="Logo"></li></a>
+                    <a href=""><li class="nav">Study Kanji</li></a>
+                    <a href=""><li class="nav">Kanji Quiz</li></a>
+                    <a href=""><li class="nav">Study Kana</li></a>
+                    <a href=""><li class="nav">Kana Quiz</li></a>
+                </ul>
+            </nav>
+        {%endblock%}
+    </header>
+
+    {%block content%}
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+        <p>i</p>
+    {%endblock%}
+
+    {%block footer%}
+        <footer>
+            <table style="width:100%; text-align:center;">
+                <tr>
+                    <td>&copy; Hunter Lytle</td>
+                    <td>Email: mojiboi@outlook.com</td>
+                </tr>
+                <tr>
+                    <td>Tumblr: <a href="https://mojiboi.tumblr.com" target="_blank">mojiboi.tumblr.com</a></td>
+                    <td>Discord Server: <a href="https://discord.gg/AhgyANYjJb" target="_blank">https://discord.gg/AhgyANYjJb</a></td>
+                </tr>
+            </table>
+        </footer>
+    {%endblock%}
+</body>
+</html>

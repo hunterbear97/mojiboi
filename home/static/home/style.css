@@ -1,0 +1,39 @@
+body{
+    background: #e0e0e0;
+}
+
+header{
+    background: #555555;
+    margin: 0px;
+}
+nav li{
+    display: inline-block;
+    align-items: flex-start;
+    vertical-align: middle;
+}
+.nav{
+    background: #0ff;
+    color: #000000;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    margin: 2%;
+}
+
+#logo{
+    background: #555555;
+}
+
+footer{
+    background: #555555;
+    color: #ffffff;   
+}
+
+footer a:link{
+    color: #ffffff;
+}
+
+footer a:visited{
+    color: #e0e0e0;
+}
