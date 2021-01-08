@@ -1,5 +1,41 @@
 {% extends 'base_generic.html' %}
 
-{% comment %} {% block content%}
+{% block content%}
+<main id='home'>
     <h1>Home</h1>
-{% endblock %} {% endcomment %}
+    <table class='home_table'>
+        <tr>
+            <td class='home_td'>
+                <h3>About</h3>
+                <p>Welcome to Mojiboi, your stop for learning Japanese kanji and kana! The site is currently under construction, so please pardon our dust.
+                We are currently working on inserting Hiragana and Katakana into the website, so look forward to that within the next week!
+                Feel free to join the Mojiboi discord server and follow the Mojiboi Tumblr, links at the bottom!
+                </p>
+
+                <p>Amout of characters we have in the database:</p>
+                <ul>
+                    <li>Kanji: 0</li>
+                    <li>Hiragana: {{num_hiragana}}</li>
+                    <li>Katakana: {{num_katakana}}</li>
+                </ul>
+            </td>
+            <td class='home_td'>
+                <h3>Changelog</h3>
+                <ul>
+                    <li>2021-01-08
+                        <ul>
+                            <li>Started the project!</li>
+                            <li>Went live on the web.</li>
+                            <li>Created home, kanji, and kana webapps.</li>
+                            <li>Created base html page.</li>
+                            <li>Created home page.</li>
+                            <li>Created database for Kana.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</main>
+{% endblock %} 
+

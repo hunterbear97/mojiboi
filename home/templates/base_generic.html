@@ -14,7 +14,7 @@
         {%block nav%}
             <nav class='navbar'>
                 <ul>
-                    <a href="{%url 'index'%}"><li id='logo'><img src="{% static 'home/logo.png'%}" alt="Logo"></li></a>
+                    <a href="{% url 'index'%}"><li id='logo'><img src="{% static 'home/logo.png'%}" alt="Logo"></li></a>
                     <a href=""><li class="nav">Study Kanji</li></a>
                     <a href=""><li class="nav">Kanji Quiz</li></a>
                     <a href=""><li class="nav">Study Kana</li></a>
@@ -23,7 +23,6 @@
             </nav>
         {%endblock%}
     </header>
-
     {%block content%}
         <p>i</p>
         <p>i</p>
@@ -67,6 +66,8 @@
         <p>i</p>
     {%endblock%}
 
+    <br>
+    <br>
     {%block footer%}
         <footer>
             <table style="width:100%; text-align:center;">
